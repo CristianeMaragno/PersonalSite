@@ -60,6 +60,68 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 .dropdown:hover .dropbtn {background-color: grey;}
 
+.project-description{
+	margin-bottom: 15px;
+}
+
+/* Slideshow*/
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin-right: 25px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.active{
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*End slideshow*/
+
 @media (max-width: 600px) {
 	.background-main{
 		margin-left: 0px;
@@ -67,6 +129,12 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 
 	.dropdown {
 		margin-left: 15px;
-	}		
+	}	
 
+}
+
+@media (max-width: 992px) {
+	.slideshow-container {
+		margin-right: 0px;
+	}	
 }

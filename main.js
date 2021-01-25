@@ -13,3 +13,34 @@ function open_resume(){
   window.open(file_name);
 
 }
+
+
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}    
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex[no]-1].style.display = "block";   
+}
+
+function plusSlides2(n, no) {
+  showSlides2(slideIndex2[no] += n, no);
+}
+
+function showSlides2(n, no) {
+  var i;
+  var x = document.getElementsByClassName(slideId2[no]);
+  if (n > x.length) {slideIndex2[no] = 1}    
+  if (n < 1) {slideIndex2[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex2[no]-1].style.display = "block";  
+}
