@@ -21,11 +21,11 @@ window.onload = function() {
       contactmini: "CONTATO",
       aboutmetext: "Texto sobre mim. Some text about me. I am lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip",
       projectstittle: "Projetos",
-      /*project1desc: "Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum, urna id ornare maximus, mauris justo viverra erat, fringilla rutrum quam massa eu erat.",
-      project1techs: "Tecnologias: Firebase, Java, PHP, Python, MySql",
-      project2desc: "Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum, urna id ornare maximus, mauris justo viverra erat, fringilla rutrum quam massa eu erat.",
-      project2techs: "Tecnologias: Firebase, Java, PHP, Python, MySql",
-      project3desc: "Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum, urna id ornare maximus, mauris justo viverra erat, fringilla rutrum quam massa eu erat.",
+      project1desc: "Descrição: Aplicativo de web scraping que obtém as principais atrações de um destino turístico. O usuário pode criar uma conta, fazer login, adicionar um novo destino com as informações da viagem, visualizar uma check list das principais atrações de um determinado destino, receber notificações, separar destinos por favoritos, excluir sua conta etc.",
+      project1techs: "Tecnologias: Kotlin, JSoup, Firebase Authentication and Firebase Realtime Database.",
+      project2desc: "Descrição: Site de exposição de escola privada.",
+      project2techs: "Tecnologias: HTML, CSS, JavaScript, W3.CSS e PHP",
+      /*project3desc: "Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum, urna id ornare maximus, mauris justo viverra erat, fringilla rutrum quam massa eu erat.",
       project3techs: "Tecnologias: Firebase, Java, PHP, Python, MySql",
       project4desc: "Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum, urna id ornare maximus, mauris justo viverra erat, fringilla rutrum quam massa eu erat.",
       project4techs: "Tecnologias: Firebase, Java, PHP, Python, MySql",*/
@@ -49,10 +49,10 @@ window.onload = function() {
       document.getElementById("about-me-t").textContent = language.pt.aboutme; 
       document.getElementById("about-me-p").textContent = language.pt.aboutmetext;
       document.getElementById("projects-t").textContent = language.pt.projectstittle;
-      /*document.getElementById("project-1-desc-t").textContent = language.pt.project1desc;
-      document.getElementById("project-1-techs-t").textContent = language.pt.project1techs;
+      document.getElementById("project-1-desc-t").textContent = language.pt.project1desc;
+      document.getElementById("project-1-techs-t").textContent = language.pt.project1techs; 
       document.getElementById("project-2-desc-t").textContent = language.pt.project2desc;
-      document.getElementById("project-2-techs-t").textContent = language.pt.project2techs;
+      document.getElementById("project-2-techs-t").textContent = language.pt.project2techs;/*
       document.getElementById("project-3-desc-t").textContent = language.pt.project3desc;
       document.getElementById("project-3-techs-t").textContent = language.pt.projec31techs;
       document.getElementById("project-4-desc-t").textContent = language.pt.project4desc;
@@ -82,10 +82,10 @@ window.onload = function() {
     window.history.replaceState('', document.contact, noHashURL);
     window.history.replaceState('', document.aboutmetext, noHashURL);
     window.history.replaceState('', document.projectstittle, noHashURL);
-    /*window.history.replaceState('', document.project1desc, noHashURL);
+    window.history.replaceState('', document.project1desc, noHashURL);
     window.history.replaceState('', document.project1techs, noHashURL);
     window.history.replaceState('', document.project2desc, noHashURL);
-    window.history.replaceState('', document.project2techs, noHashURL);
+    window.history.replaceState('', document.project2techs, noHashURL);/*
     window.history.replaceState('', document.project3desc, noHashURL);
     window.history.replaceState('', document.project3techs, noHashURL);
     window.history.replaceState('', document.project4desc, noHashURL);
