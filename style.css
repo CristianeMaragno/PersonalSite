@@ -64,6 +64,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	margin-bottom: 15px;
 }
 
+.project-row{
+	margin-top: 30px;
+}
+
 /* Slideshow*/
 .slideshow-container {
   max-width: 1000px;
