@@ -75,7 +75,7 @@ function showSlides3(n) {
   slides[slideIndex3-1].style.display = "block";
 }
 
-/*function plusSlides4(n) {
+function plusSlides4(n) {
   showSlides4(slideIndex4 += n);
 }
 
@@ -93,4 +93,4 @@ function showSlides4(n) {
       slides[i].style.display = "none";
   }
   slides[slideIndex4-1].style.display = "block";
-}*/
+}

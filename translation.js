@@ -27,8 +27,8 @@ window.onload = function() {
       project2techs: "Tecnologias: HTML, CSS, JavaScript, W3.CSS e PHP",
       project3desc: "Descrição: Três aplicativos para a interação de uma escola. Contendo a versão do aluno, do professor e da diretoria. Cada aplicaticativo pode excutar tarefas distintas, estando dentre elas criar, vizualizar ou deletar posts, agendar eventos no calendário, fazer upload ou download de boletos bancários, enviar mensagens etc",
       project3techs: "Tecnologias: Java, Picasso, Firebase Authentication, Firebase Realtime Database and Firebase Storage",
-      /*project4desc: "Descrição: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse fermentum, urna id ornare maximus, mauris justo viverra erat, fringilla rutrum quam massa eu erat.",
-      project4techs: "Tecnologias: Firebase, Java, PHP, Python, MySql",*/
+      project4desc: "Descrição: Site de casamento com as informações da cerimônia, um pouco sobre os noivos e sua história, area para os convidados confirmarem sua presença, ensaio fotográfico dos noivos e a lista virtual de presentes por onde o convidado pode escolher e pagar o presente de casamento.",
+      project4techs: "Tecnologias: HTML, CSS, JavaScript, Bootstrap e PHP",
       contacttittle: "Entre em Contato",
       contacttext: "Vamos entrar em contato. Me mande uma mensagem:",
       sendmessage: "ENVIAR MENSAGEM"
@@ -54,9 +54,9 @@ window.onload = function() {
       document.getElementById("project-2-desc-t").textContent = language.pt.project2desc;
       document.getElementById("project-2-techs-t").textContent = language.pt.project2techs;
       document.getElementById("project-3-desc-t").textContent = language.pt.project3desc;
-      document.getElementById("project-3-techs-t").textContent = language.pt.projec3techs;/*
+      document.getElementById("project-3-techs-t").textContent = language.pt.projec3techs;
       document.getElementById("project-4-desc-t").textContent = language.pt.project4desc;
-      document.getElementById("project-4-techs-t").textContent = language.pt.projec41techs;*/
+      document.getElementById("project-4-techs-t").textContent = language.pt.project4techs;
       document.getElementById("contact-me-t").textContent = language.pt.contacttittle;
       document.getElementById("contact-me-text-t").textContent = language.pt.contacttext;
       document.getElementById("button-send-message-t").textContent = language.pt.sendmessage;
@@ -87,9 +87,9 @@ window.onload = function() {
     window.history.replaceState('', document.project2desc, noHashURL);
     window.history.replaceState('', document.project2techs, noHashURL);
     window.history.replaceState('', document.project3desc, noHashURL);
-    window.history.replaceState('', document.project3techs, noHashURL);/*
+    window.history.replaceState('', document.project3techs, noHashURL);
     window.history.replaceState('', document.project4desc, noHashURL);
-    window.history.replaceState('', document.project4techs, noHashURL);*/
+    window.history.replaceState('', document.project4techs, noHashURL);
     window.history.replaceState('', document.contacttittle, noHashURL);
     window.history.replaceState('', document.contacttext, noHashURL);
     window.history.replaceState('', document.sendmessage, noHashURL);
