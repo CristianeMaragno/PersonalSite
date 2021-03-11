@@ -19,292 +19,304 @@
 
   <body class="w3-black">
 
-  <!-- Icon Bar (Sidebar - hidden on small screens) -->
-  <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
-    <!-- Avatar image in top left corner -->
-    <img src="images/icon_bar.png" style="width:100%">
-    <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-      <i class="fa fa-home w3-xxlarge"></i>
-      <p id="home-bar">HOME</p>
-    </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-user w3-xxlarge"></i>
-      <p id="about-bar">ABOUT</p>
-    </a>
-    <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-eye w3-xxlarge"></i>
-      <p id="projects-bar">PROJECTS</p>
-    </a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-      <i class="fa fa-envelope w3-xxlarge"></i>
-      <p id="contact-bar">CONTACT</p>
-    </a>
-  </nav>
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+      <!-- Avatar image in top left corner -->
+      <img src="images/icon_bar.png" style="width:100%">
+      <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+        <i class="fa fa-home w3-xxlarge"></i>
+        <p id="home-bar">HOME</p>
+      </a>
+      <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-user w3-xxlarge"></i>
+        <p id="about-bar">ABOUT</p>
+      </a>
+      <a href="#projects" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-eye w3-xxlarge"></i>
+        <p id="projects-bar">PROJECTS</p>
+      </a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+        <i class="fa fa-envelope w3-xxlarge"></i>
+        <p id="contact-bar">CONTACT</p>
+      </a>
+    </nav>
 
-  <!-- Navbar on small screens (Hidden on medium and large screens) -->
-  <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
-    <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
-      <a href="#" class="w3-bar-item w3-button" style="width:25% !important" id="home-bar-mini">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important" id="about-bar-mini">ABOUT</a>
-      <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important" id="projects-bar-mini">PROJECTS</a>
-      <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important" id="contact-bar-mini">CONTACT</a>
-    </div>
-  </div>
-
-  <img src="images/background_main.png" class="background-main w3-image" alt="boy">
-  <div class="dropdown">
-    <button class="dropbtn">Language/Língua <i class="fas fa-angle-down"></i></button>
-    <div class="dropdown-content">
-      <a href="#eng" data-reload-eng>English</a>
-      <a href="#pt" data-reload-pt>Português</a>
-    </div>
-  </div>
-
-  <!-- Page Content -->
-  <div class="w3-padding-large" id="main">
-
-    <div class="social-media">
-        <a href="https://br.linkedin.com/in/cristiane-rodrigues-maragno-76a965175"><img src="images/linkedin_icon.png" alt="boy" class="social-icon w3-image"></a> 
-        <a href="https://github.com/CristianeMaragno"><img src="images/github_icon.png" alt="boy" class="social-icon w3-image"></a> 
-        <a href="https://www.facebook.com/cris.rodriguesmaragno"><img src="images/facebook_icon.png" alt="boy" class="social-icon w3-image"></a> 
-        <a href="https://www.instagram.com/crismaragno/"><img src="images/instagram_icon.png" alt="boy" class="social-icon w3-image"></a> 
+    <!-- Navbar on small screens (Hidden on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+      <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+        <a href="#" class="w3-bar-item w3-button" style="width:25% !important" id="home-bar-mini">HOME</a>
+        <a href="#about" class="w3-bar-item w3-button" style="width:25% !important" id="about-bar-mini">ABOUT</a>
+        <a href="#projects" class="w3-bar-item w3-button" style="width:25% !important" id="projects-bar-mini">PROJECTS</a>
+        <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important" id="contact-bar-mini">CONTACT</a>
+      </div>
     </div>
 
-
-    <!-- About Section -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-
-      <h2 class="w3-text-light-grey" id="about-me-t">About me</h2>
-      <hr style="width:200px" class="w3-opacity">
-      <p id="about-me-p"> Hello, I'm Cristiane and my journey with programming starts in 2016, when I started the mechatronics course, since then I have been interested and involved with several technologies. Initially, I learned C and C ++ for microcontroller programming (like Arduino) with the objective of participating in national and international robotics competitions(RoboCup 2017, that happened in Nagoya-Japan). Later, I acquired knowledge about web development technologies(HTML, CSS, JavaScript, PHP and MySQL) that I used to work as a freelancer. Android development also piqued my interest (Java, Kotlin and Firebase) and more recently I have been trying to delve deeper into Machine Learning (Python, Pandas, Matplotlib and Sciki Learn). I am a naturally curious person who likes challenges and that always seeks to improve.
-      </p>
-
-      <!--<button onclick="open_resume()" class="w3-button w3-light-grey w3-padding-large w3-section">
-        <i class="fa fa-download"></i> Download Resume/Currículo
-      </button> -->
-
-    <!-- Portfolio Section -->
-    <div class="w3-padding-64 w3-content" id="projects">
-      <h2 class="w3-text-light-grey" id="projects-t">Projects</h2>
-      <hr style="width:200px" class="w3-opacity">
-
-      <div>
-        <div class="w3-row project-row">
-          <div class="w3-col m12 l6">
-            <div class="slideshow-container">
-              <div class="mySlides1 fade">
-                <img src="images/project11.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides1 fade">
-                <img src="images/project12.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides1 fade">
-                <img src="images/project13.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides1 fade">
-                <img src="images/project14.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides1 fade">
-                <img src="images/project15.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides1 fade">
-                <img src="images/project16.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides1 fade">
-                <img src="images/project17.png" style="width: 100%;">
-              </div>
-
-              <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides1(1)">&#10095;</a>
-            </div>
-          </div>
-          <div class="project-description w3-col m12 l6">
-            <p id="project-1-desc-t"><b>Description:</b> Web scraping application that gets the main attractions of a tourist destination. The user can create an account, log in, add a new destination with the travel information, view a checklist of the main attractions of a certain destination, receive notifications, separate destinations by favorites, delete their account atc.</p>
-            <p id="project-1-techs-t"><b>Techs:</b>Kotlin, JSoup, Firebase Authentication and Firebase Realtime Database.</p>
-            <a href="https://github.com/CristianeMaragno/FunCheck"><i class="fas fa-code"></i>Code</br></br></a>
-          </div>
-          
-        </div>
-
-        <div class="w3-row project-row">
-          <div class="w3-col m12 l6">
-            <div class="slideshow-container">
-              <div class="mySlides2 fade">
-                <img src="images/project21.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="images/project22.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="images/project23.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="images/project24.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="images/project25.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="images/project26.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides2 fade">
-                <img src="images/project27.png" style="width: 100%;">
-              </div>
-
-              <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides2(1)">&#10095;</a>
-            </div>
-          </div>
-          <div class="project-description w3-col m12 l6">
-            <p id="project-2-desc-t"><b>Description:</b> Private school exhibition site.</p>
-            <p id="project-2-techs-t"><b>Techs:</b>  HTML, CSS, JavaScript, W3.CSS e PHP</p>
-            <a href="http://www.centroeducacionaldavi.com/"><i class="fas fa-link"></i>Link</a>
-          </div>
-          
-        </div>
-
-        <div class="w3-row project-row">
-          <div class="w3-col m12 l6">
-            <div class="slideshow-container">
-              <div class="mySlides3 fade">
-                <img src="images/project31.png" style="width:100%">
-              </div>
-
-              <div class="mySlides3 fade">
-                <img src="images/project32.png" style="width:100%">
-              </div>
-
-              <div class="mySlides3 fade">
-                <img src="images/project33.png" style="width:100%">
-              </div>
-
-              <div class="mySlides3 fade">
-                <img src="images/project34.png" style="width:100%">
-              </div>
-
-              <div class="mySlides3 fade">
-                <img src="images/project35.png" style="width:100%">
-              </div>
-
-              <div class="mySlides3 fade">
-                <img src="images/project36.png" style="width:100%">
-              </div>
-
-              <div class="mySlides3 fade">
-                <img src="images/project37.png" style="width:100%">
-              </div>
-
-              <!-- Next and previous buttons -->
-              <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides3(1)">&#10095;</a>
-            </div>    
-          </div>
-          <div class="project-description w3-col m12 l6">
-            <p id="project-3-desc-t"><b>Description:</b> Three apps for the interaction of a school. Containing the student, professor and board version. Each application can perform different tasks, including creating, viewing or deleting posts, scheduling events in the calendar, uploading or downloading bank slips, sending messages, etc.</p>
-            <p id="project-3-techs-t"><b>Techs:</b> Java, Picasso, Firebase Authentication, Firebase Realtime Database and Firebase Storage</p>
-            <a href="https://github.com/CristianeMaragno/PD2-DiretoriaApp"><i class="fas fa-code"></i>Code</br></br></a>
+    <div class="presentation">
+      <div class="w3-row">
+        <div class="w3-col m8 l8">
+          <div class="presentation-text">
+            <h1 id="hi-h" class="main-text">Hello,</h1>
+            <h1 id="presentation-h" class="main-text">I'm Cris</h1>
+            <p id="presentation-p" class="main-text-p">I'm a software developer. Learning and creating are my passions</p>
           </div>
         </div>
-
-        <div class="w3-row project-row">
-          <div class="w3-col m12 l6">
-            <div class="slideshow-container">
-              <div class="mySlides4 fade">
-                <img src="images/project41.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides4 fade">
-                <img src="images/project42.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides4 fade">
-                <img src="images/project43.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides4 fade">
-                <img src="images/project44.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides4 fade">
-                <img src="images/project45.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides4 fade">
-                <img src="images/project46.png" style="width: 100%;">
-              </div>
-
-              <div class="mySlides4 fade">
-                <img src="images/project47.png" style="width: 100%;">
-              </div>
-
-              <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides4(1)">&#10095;</a>
-            </div>
-          </div>
-          <div class="project-description w3-col m12 l6">
-            <p id="project-4-desc-t"><b>Description:</b> Wedding website with information about the ceremony, a little about the couple and their history, area for the guests to confirm their presence, photo shoot of the bride and groom and the virtual list of gifts where the guest can choose and pay for the wedding gift.</p>
-            <p id="project-4-techs-t"><b>Techs: </b>HTML, CSS, JavaScript, Bootstrap and PHP</p>
-          </div>
+        <div class="w3-col m4 l4">
         </div>
+      </div>
+    </div>
 
-        <script>
-          var slideIndex1 = 1;
-          showSlides1(slideIndex1);
+    <div class="dropdown">
+      <button class="dropbtn">Language/Língua <i class="fas fa-angle-down"></i></button>
+      <div class="dropdown-content">
+        <a href="#eng" data-reload-eng>English</a>
+        <a href="#pt" data-reload-pt>Português</a>
+      </div>
+    </div>
 
-          var slideIndex2 = 1;
-          showSlides2(slideIndex2);
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
 
-          var slideIndex3 = 1;
-          showSlides3(slideIndex3); 
-
-          var slideIndex4 = 1;
-          showSlides4(slideIndex4);
-        </script>
+      <div class="social-media">
+          <a href="https://br.linkedin.com/in/cristiane-rodrigues-maragno-76a965175"><img src="images/linkedin_icon.png" alt="boy" class="social-icon w3-image"></a> 
+          <a href="https://github.com/CristianeMaragno"><img src="images/github_icon.png" alt="boy" class="social-icon w3-image"></a> 
+          <a href="https://www.facebook.com/cris.rodriguesmaragno"><img src="images/facebook_icon.png" alt="boy" class="social-icon w3-image"></a> 
+          <a href="https://www.instagram.com/crismaragno/"><img src="images/instagram_icon.png" alt="boy" class="social-icon w3-image"></a> 
       </div>
 
-    <!-- End Portfolio Section -->
-    </div>
 
-    <!-- Contact Section -->
-    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
-      <h2 class="w3-text-light-grey" id="contact-me-t">Contact Me</h2>
-      <hr style="width:200px" class="w3-opacity">
+      <!-- About Section -->
+      <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
 
-      <div class="w3-section">
-        <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Santa Catarina, BR</p>
-        <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: contato@cristianemaragno.com</p>
-      </div><br>
-      <p id="contact-me-text-t">Let's get in touch. Send me a message:</p>
-
-      <form method="POST" action="contact.php">
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-        <p>
-          <button id="button-send-message-t" class="w3-button w3-light-grey w3-padding-large" type="submit">
-            <i class="fa fa-paper-plane"></i> SEND MESSAGE
-          </button>
+        <h2 class="w3-text-light-grey" id="about-me-t">About me</h2>
+        <hr style="width:200px" class="w3-opacity">
+        <p id="about-me-p"> Hello, I'm Cristiane and my journey with programming starts in 2016, when I started the mechatronics course, since then I have been interested and involved with several technologies. Initially, I learned C and C ++ for microcontroller programming (like Arduino) with the objective of participating in national and international robotics competitions(RoboCup 2017, that happened in Nagoya-Japan). Later, I acquired knowledge about web development technologies(HTML, CSS, JavaScript, PHP and MySQL) that I used to work as a freelancer. Android development also piqued my interest (Java, Kotlin and Firebase) and more recently I have been trying to delve deeper into Machine Learning (Python, Pandas, Matplotlib and Sciki Learn). I am a naturally curious person who likes challenges and that always seeks to improve.
         </p>
-      </form>
-    <!-- End Contact Section -->
-    </div>
-  
-  <!-- END PAGE CONTENT -->
-  </div>
 
+        <!--<button onclick="open_resume()" class="w3-button w3-light-grey w3-padding-large w3-section">
+          <i class="fa fa-download"></i> Download Resume/Currículo
+        </button> -->
+
+      <!-- Portfolio Section -->
+      <div class="w3-padding-64 w3-content" id="projects">
+        <h2 class="w3-text-light-grey" id="projects-t">Projects</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div>
+          <div class="w3-row project-row">
+            <div class="w3-col m12 l6">
+              <div class="slideshow-container">
+                <div class="mySlides1 fade">
+                  <img src="images/project11.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides1 fade">
+                  <img src="images/project12.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides1 fade">
+                  <img src="images/project13.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides1 fade">
+                  <img src="images/project14.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides1 fade">
+                  <img src="images/project15.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides1 fade">
+                  <img src="images/project16.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides1 fade">
+                  <img src="images/project17.png" style="width: 100%;">
+                </div>
+
+                <a class="prev" onclick="plusSlides1(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides1(1)">&#10095;</a>
+              </div>
+            </div>
+            <div class="project-description w3-col m12 l6">
+              <p id="project-1-desc-t"><b>Description:</b> Web scraping application that gets the main attractions of a tourist destination. The user can create an account, log in, add a new destination with the travel information, view a checklist of the main attractions of a certain destination, receive notifications, separate destinations by favorites, delete their account atc.</p>
+              <p id="project-1-techs-t"><b>Techs:</b>Kotlin, JSoup, Firebase Authentication and Firebase Realtime Database.</p>
+              <a href="https://github.com/CristianeMaragno/FunCheck"><i class="fas fa-code"></i>Code</br></br></a>
+            </div>
+            
+          </div>
+
+          <div class="w3-row project-row">
+            <div class="w3-col m12 l6">
+              <div class="slideshow-container">
+                <div class="mySlides2 fade">
+                  <img src="images/project21.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides2 fade">
+                  <img src="images/project22.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides2 fade">
+                  <img src="images/project23.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides2 fade">
+                  <img src="images/project24.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides2 fade">
+                  <img src="images/project25.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides2 fade">
+                  <img src="images/project26.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides2 fade">
+                  <img src="images/project27.png" style="width: 100%;">
+                </div>
+
+                <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+              </div>
+            </div>
+            <div class="project-description w3-col m12 l6">
+              <p id="project-2-desc-t"><b>Description:</b> Private school exhibition site.</p>
+              <p id="project-2-techs-t"><b>Techs:</b>  HTML, CSS, JavaScript, W3.CSS e PHP</p>
+              <a href="http://www.centroeducacionaldavi.com/"><i class="fas fa-link"></i>Link</a>
+            </div>
+            
+          </div>
+
+          <div class="w3-row project-row">
+            <div class="w3-col m12 l6">
+              <div class="slideshow-container">
+                <div class="mySlides3 fade">
+                  <img src="images/project31.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="images/project32.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="images/project33.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="images/project34.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="images/project35.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="images/project36.png" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                  <img src="images/project37.png" style="width:100%">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides3(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides3(1)">&#10095;</a>
+              </div>    
+            </div>
+            <div class="project-description w3-col m12 l6">
+              <p id="project-3-desc-t"><b>Description:</b> Three apps for the interaction of a school. Containing the student, professor and board version. Each application can perform different tasks, including creating, viewing or deleting posts, scheduling events in the calendar, uploading or downloading bank slips, sending messages, etc.</p>
+              <p id="project-3-techs-t"><b>Techs:</b> Java, Picasso, Firebase Authentication, Firebase Realtime Database and Firebase Storage</p>
+              <a href="https://github.com/CristianeMaragno/PD2-DiretoriaApp"><i class="fas fa-code"></i>Code</br></br></a>
+            </div>
+          </div>
+
+          <div class="w3-row project-row">
+            <div class="w3-col m12 l6">
+              <div class="slideshow-container">
+                <div class="mySlides4 fade">
+                  <img src="images/project41.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="images/project42.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="images/project43.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="images/project44.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="images/project45.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="images/project46.png" style="width: 100%;">
+                </div>
+
+                <div class="mySlides4 fade">
+                  <img src="images/project47.png" style="width: 100%;">
+                </div>
+
+                <a class="prev" onclick="plusSlides4(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides4(1)">&#10095;</a>
+              </div>
+            </div>
+            <div class="project-description w3-col m12 l6">
+              <p id="project-4-desc-t"><b>Description:</b> Wedding website with information about the ceremony, a little about the couple and their history, area for the guests to confirm their presence, photo shoot of the bride and groom and the virtual list of gifts where the guest can choose and pay for the wedding gift.</p>
+              <p id="project-4-techs-t"><b>Techs: </b>HTML, CSS, JavaScript, Bootstrap and PHP</p>
+            </div>
+          </div>
+
+          <script>
+            var slideIndex1 = 1;
+            showSlides1(slideIndex1);
+
+            var slideIndex2 = 1;
+            showSlides2(slideIndex2);
+
+            var slideIndex3 = 1;
+            showSlides3(slideIndex3); 
+
+            var slideIndex4 = 1;
+            showSlides4(slideIndex4);
+          </script>
+        </div>
+
+      <!-- End Portfolio Section -->
+      </div>
+
+      <!-- Contact Section -->
+      <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+        <h2 class="w3-text-light-grey" id="contact-me-t">Contact Me</h2>
+        <hr style="width:200px" class="w3-opacity">
+
+        <div class="w3-section">
+          <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Santa Catarina, BR</p>
+          <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: contato@cristianemaragno.com</p>
+        </div><br>
+        <p id="contact-me-text-t">Let's get in touch. Send me a message:</p>
+
+        <form method="POST" action="contact.php">
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+          <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+          <p>
+            <button id="button-send-message-t" class="w3-button w3-light-grey w3-padding-large" type="submit">
+              <i class="fa fa-paper-plane"></i> SEND MESSAGE
+            </button>
+          </p>
+        </form>
+      <!-- End Contact Section -->
+      </div>
+    
+    <!-- END PAGE CONTENT -->
+    </div>
   </body>
 
 </html>

@@ -7,13 +7,32 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
 
+.main-text{
+	font-size: 7vw;
+	padding-left: 22vw;
+}
+
+.main-text-p{
+	font-size: 1.8vw;
+	color: white;
+	padding-left: 22vw;
+}
+
+.presentation-text{
+	padding-top: 8vw;
+	padding-bottom: 15vw;
+}
+.presentation{
+	background-image: url('images/background-black.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto; 
+}
+
 .background-main{
-	margin-left: 70px;
 	width: 100%;
 }
 
 .social-media{
-	
 	text-align: center;
 }
 
@@ -134,6 +153,10 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 	.dropdown {
 		margin-left: 15px;
 	}	
+
+	.main-text-p{
+		font-size: 3.5vw;
+	}
 
 }
 

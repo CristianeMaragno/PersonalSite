@@ -13,12 +13,15 @@ window.onload = function() {
       aboutme: "Sobre mim",
       home: "INÍCIO",
       homemini:"INÍCIO", 
-      about: "SOBRE MIM",
-      aboutmini: "SOBRE MIM",
+      about: "SOBRE",
+      aboutmini: "SOBRE",
       projects: "PROJETOS",
       projectsmini: "PROJETOS",
       contact: "CONTATO",
       contactmini: "CONTATO",
+      hitext: "Olá",
+      presentationtext: "Eu sou Cris",
+      presentationtextp: "Sou uma desenvolvedora de software. Aprender e criar são as minhas paixões",
       aboutmetext: "Olá, eu sou Cristiane e minha trajetória com programação começa em 2016, quando iniciei o curso de mecatrônica, de lá para cá tenho tido interesse e me envolvido com diversas tecnologias. Inicialmente, eu aprendi C e C++ para a programação de microcontroladores (como Arduino) tendo como objetivo a participação em competições de robótica nacionais e internacionais(RoboCup 2017, cediada em Nagoya-Japão). Posteriormente, adquiri conhecimento sobre as tecnologias para o desenvolvimento web (HTML, CSS, JavaScript, PHP e MySQL) que utilizei para atuar como freelancer. O desenvolvimento Android também despertou o meu interesse (Java, Kotlin e Firebase) e mais recentemente tenho buscado me aprofundar sobre Machine Learning(Python, Pandas, Matplotlib, Sciki Learn). Eu sou uma pessoa naturalmente curiosa, que gosta de desafios e que sempre busca aprimorar suas abilidades.",
       projectstittle: "Projetos",
       project1desc: "Descrição: Aplicativo de web scraping que obtém as principais atrações de um destino turístico. O usuário pode criar uma conta, fazer login, adicionar um novo destino com as informações da viagem, visualizar uma check list das principais atrações de um determinado destino, receber notificações, separar destinos por favoritos, excluir sua conta etc.",
@@ -46,6 +49,9 @@ window.onload = function() {
       document.getElementById("projects-bar-mini").textContent = language.pt.projectsmini;
       document.getElementById("contact-bar").textContent = language.pt.contact;
       document.getElementById("contact-bar-mini").textContent = language.pt.contactmini;
+      document.getElementById("hi-h").textContent = language.pt.hitext;
+      document.getElementById("presentation-h").textContent = language.pt.presentationtext;
+      document.getElementById("presentation-p").textContent = language.pt.presentationtextp;
       document.getElementById("about-me-t").textContent = language.pt.aboutme; 
       document.getElementById("about-me-p").textContent = language.pt.aboutmetext;
       document.getElementById("projects-t").textContent = language.pt.projectstittle;
@@ -80,6 +86,9 @@ window.onload = function() {
     window.history.replaceState('', document.about, noHashURL);
     window.history.replaceState('', document.projects, noHashURL);
     window.history.replaceState('', document.contact, noHashURL);
+    window.history.replaceState('', document.hitext, noHashURL);
+    window.history.replaceState('', document.presentationtext, noHashURL);
+    window.history.replaceState('', document.presentationtextp, noHashURL);
     window.history.replaceState('', document.aboutmetext, noHashURL);
     window.history.replaceState('', document.projectstittle, noHashURL);
     window.history.replaceState('', document.project1desc, noHashURL);
